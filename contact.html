@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact AI Toolkit Hub using a simple validated form.">
+  <title>Contact | AI Toolkit Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="AI Toolkit Hub home">
+        <span class="brand-mark">AI</span>
+        <span class="brand-text">Toolkit Hub</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a data-nav="home" href="index.html">Home</a></li>
+          <li><a data-nav="tools" href="tools.html">Tools</a></li>
+          <li><a data-nav="categories" href="categories.html">Categories</a></li>
+          <li><a data-nav="about" href="about.html">About</a></li>
+          <li><a data-nav="contact" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section page-hero">
+      <div class="container page-hero-inner">
+        <p class="eyebrow">Contact</p>
+        <h1 class="page-title">Send a message about the project</h1>
+        <p class="hero-text">The form validates input on the client side, trims whitespace, prevents empty submissions, and shows a success message without storing any user data.</p>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container contact-grid">
+        <article class="about-panel">
+          <p class="section-label">Before you send</p>
+          <h2>Use this form for feedback or questions</h2>
+          <p class="contact-text">The form is intentionally lightweight and suitable for a frontend-only project submission. It only validates the input on the page.</p>
+          <ul class="about-list">
+            <li>Whitespace is trimmed before validation</li>
+            <li>Email format is checked with JavaScript</li>
+            <li>No data is stored or sent to a backend</li>
+          </ul>
+        </article>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button class="btn btn-primary btn-submit" type="submit">Submit</button>
+          <p class="form-message" id="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">AI Toolkit Hub</p>
+        <p class="footer-copy">Copyright © 2026 AI Toolkit Hub. All rights reserved.</p>
+      </div>
+
+      <div class="footer-links" aria-label="Social links">
+        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
