@@ -1,28 +1,40 @@
-# TODO.md — AI Toolkit Hub (Project 1) Improvements
+# TODO — Humanize AI Toolkit Hub
 
-## Step 1: Repo review (done)
-- [x] Scanned existing files structure
-- [x] Reviewed `js/script.js`, `index.html`, `css/style.css`
+## Step 1: HERO + remove generic stats/sections
+- [x] Update `index.html` hero copy (remove Curated Picks + generic phrases)
+- [x] Remove stats list (15/6/1) from hero-card
+- [x] Remove/replace the generic “info-grid” section with a “Why This Hub?” block
+- [x] Adjust hero CTA labels to be less repetitive
 
-## Step 2: Plan confirmation (done)
-- [x] Confirmed Learn More behavior should be internal on `tools.html`
 
-## Step 3: Implement fixes (in progress)
-- [ ] Fix `index.html` markup duplication/malformed nesting
-- [ ] Update `tools.html` to render tool cards with: name, category, short description, Learn More, Visit Tool
-- [ ] Update `categories.html` to show proper category grouping and tool cards
-- [ ] Ensure navbar links route correctly across all pages
-- [ ] Verify mobile navigation toggle works (open/close + aria-expanded)
-- [ ] Verify contact form validation (trim, non-empty, email format, success/error message)
-- [ ] Ensure responsive layout at mobile/tablet/desktop
-- [ ] Keep official Visit Tool links: `target="_blank" rel="noopener noreferrer"`
+## Step 2: About page rewrite
+- [x] Rewrite `about.html` completely (no internship/tech evaluation wording)
 
-## Step 4: Docs & repo hygiene
-- [ ] Update `README.md` with required sections (overview, features, tech, structure, setup, GitHub Pages, Vercel, author, internship mention)
-- [ ] Ensure `.gitignore` matches required entries
 
-## Step 5: Verification
-- [ ] Run a quick local static check (open pages in browser)
-- [ ] Validate tool card links and buttons
-- [ ] Final changelog + submission verdict
+## Step 3: Contact page copy rewrite
+- [x] Update `contact.html` hero + “Before you send” section (no validation/backend details)
+
+
+
+## Step 4: Tool description text tuning
+- [x] Update `js/script.js` tool `overview/features/useCases/pros/limitations` to be more practical
+
+
+
+## Step 5: Visual refinement (dark theme, less futuristic)
+- [x] Update `css/style.css` to reduce neon/gradient feel while keeping contrast + responsiveness
+
+
+## Step 6: Footer text consistency
+- [x] Update footer text across main pages/tool pages to match human tone
+
+
+
+
+
+## Step 7: Sanity check
+- [ ] Manually verify: index/about/contact/tools/tool detail pages load
+- [ ] Confirm contact form still validates + shows success message
+- [ ] Confirm tool detail lists render from JS
+
 

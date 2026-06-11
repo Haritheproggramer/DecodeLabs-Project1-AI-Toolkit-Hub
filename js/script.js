@@ -12,36 +12,40 @@ const tools = {
     initials: 'CG',
     tone: 'tone-aquamarine',
     officialUrl: 'https://chatgpt.com',
-    overview: 'A conversational assistant that helps with writing, brainstorming, studying, and quick explanations.',
-    features: ['Natural conversation and follow-up questions', 'Summaries, outlines, and draft generation', 'Fast help for learning new topics'],
-    useCases: ['Writing notes and study support', 'Explaining concepts in simple language', 'Creating first drafts for projects'],
-    pros: ['Easy to start using', 'Flexible across many tasks', 'Useful for students and developers'],
-    limitations: ['Responses still need fact-checking', 'Quality depends on the prompt', 'May not be accurate for every topic']
+    overview: 'Useful for brainstorming ideas, understanding concepts, drafting content, and getting coding help.',
+
+    features: ['Conversation with follow-up questions', 'Drafts, outlines, and summaries', 'Help explaining topics in plain language'],
+    useCases: ['Drafting notes and study guides', 'Turning rough ideas into clearer writing', 'Getting unstuck while building a project'],
+    pros: ['Quick to start', 'Works well for many kinds of questions', 'Good for learning by asking follow-ups'],
+    limitations: ['You still need to verify important facts', 'Results depend heavily on the prompt', 'Not every answer is equally reliable']
   },
+
   copilot: {
     name: 'GitHub Copilot',
     category: 'Coding AI',
     initials: 'GC',
     tone: 'tone-sky',
     officialUrl: 'https://github.com/features/copilot',
-    overview: 'A coding assistant that suggests code, speeds up routine development, and supports common programming workflows.',
-    features: ['Inline code suggestions', 'Support for many programming languages', 'Helps with repetitive coding tasks'],
-    useCases: ['Writing boilerplate code', 'Learning coding patterns', 'Debugging with faster context'],
-    pros: ['Saves time while coding', 'Works inside the editor', 'Good for beginner support'],
-    limitations: ['Can suggest incorrect code', 'Needs review before use', 'Best results depend on context']
+    overview: 'An editor assistant that helps by suggesting code and explaining what you’re trying to do.',
+    features: ['Inline suggestions while you type', 'Help with common patterns and boilerplate', 'Suggestions based on your surrounding code'],
+    useCases: ['Writing small code blocks faster', 'Learning how common patterns are implemented', 'Refactoring with less manual work'],
+    pros: ['Speeds up routine coding', 'Works directly in your workflow', 'Helpful for getting unstuck'],
+    limitations: ['You should review before using', 'It can miss edge cases', 'Some suggestions will be wrong or incomplete']
   },
+
   perplexity: {
     name: 'Perplexity',
     category: 'Research AI',
     initials: 'P',
     tone: 'tone-peach',
     officialUrl: 'https://www.perplexity.ai',
-    overview: 'A research-focused tool that combines AI answers with a search-style experience for quick fact finding.',
-    features: ['Fast search-driven answers', 'Helpful source-focused summaries', 'Good for topic exploration'],
-    useCases: ['Researching class topics', 'Checking quick facts', 'Exploring new subjects'],
-    pros: ['Great for starting research', 'Simple interface', 'Quick information retrieval'],
-    limitations: ['Still requires source review', 'Not ideal for deep analysis alone', 'Can miss nuanced context']
+    overview: 'Good for quick research—turning a question into a structured answer with sources you can follow.',
+    features: ['Search-style Q&A experience', 'Summaries with links/sources', 'Helpful for exploring a new topic'],
+    useCases: ['Getting background for assignments', 'Finding quick answers and references', 'Collecting context before you write'],
+    pros: ['Useful for starting research quickly', 'Easy to scan', 'Great when you need sources'],
+    limitations: ['Always double-check key details', 'May not capture every nuance', 'Best for early-stage research']
   },
+
   canva: {
     name: 'Canva AI',
     category: 'Design AI',
